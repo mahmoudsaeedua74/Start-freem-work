@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+    
+h3{
+    font-size: calc(1.3rem + .6vw) ;
+}
+h2{
+    font-size: calc(1.375rem + 1.5vw) ;
+}
+
+.custom-after::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    bottom: 50%;
+    right: 150%;
+    transform: translateY(50%);} 
+.custom-before::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    bottom: 50%;
+    left: 150%;
+    transform: translateY(50%); }
+    input::placeholder {
+        color: rgba(0, 0, 0, 0.664);
+    }
+   .icon {
+    display: none;
+   } 
+.active {
+    @apply bg-secondcolor p-2 rounded-md
+}
+@media  screen and (min-width: 1200px)  {
+    h3 {
+        font-size: 1.75rem }
+
+    h2{
+        font-size: 2.5rem;
+    }
+    
+}
