@@ -1,8 +1,17 @@
-# React + Vite
+ ##Start-Freem-Work
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app demonstrating page navigation using React Router. The app allows users to easily navigate between different pages.
 
-Currently, two official plugins are available:
+## Features:
+- Navigation between pages using React Router.
+- Basic React structure with functional components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used:
+- React
+- React Router
+- HTML, CSS, JavaScript
+
+## Setup Instructions:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/start-freem-work.git
